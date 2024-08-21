@@ -1,0 +1,14 @@
+select * from employees where last_name  like '%as%';
+
+select first_name, last_name from employees where last_name  like '__n%';
+
+select  first_name, last_name from employees where first_name  like '_a%a'  ;
+
+select * from employees where first_name  not like "s%" ;
+
+
+select * from employees where name like "__r%";
+
+select * from employees  where last_name  like "%mad%";
+
+
